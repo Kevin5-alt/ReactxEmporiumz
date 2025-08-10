@@ -1,0 +1,116 @@
+/* GLOBAL */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6996da;
+  margin: 0;
+  padding: 0;
+  color: #020202;
+}
+
+/* HEADER */
+header {
+  background-color: #354586;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.emporium-title {
+  font-family: 'Irish Grover', cursive;
+  font-size: 28px;
+  color: white;
+  margin: 0;
+}
+.btn-back {
+  background-color: #aaa;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-back:hover {
+  background-color: #888;
+}
+
+/* CONTENIDO */
+.main-content {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.form-section {
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button.primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #615fc2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.primary:hover {
+  background-color: #fa0000;
+}
+.error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 36px;
+  cursor: pointer;
+}
+
+/* TABLAS */
+.promo-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+.promo-list th,
+.promo-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.promo-list th {
+  background-color: #004080;
+  color: #fff;
+}
+.btn-edit {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  margin-right: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
